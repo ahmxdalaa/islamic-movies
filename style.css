@@ -1,0 +1,304 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+.top{
+  background-color: #c3b091
+}
+/* Style the header-top section */
+.header-top {
+  background-color: #8D745B; /* Background color for the header */
+  color: #ded4c3; /* Text color */
+  padding: 10px 0; /* Add padding to the top and bottom of the header-top section */
+}  
+
+.container-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically align items in the center */
+
+}
+
+.navbar {
+  display: flex; /* Display both lists in a single line */
+  justify-content: space-between; /* Separate the lists to the left and right */
+  width: 100%; /* Ensure the navbar takes up the entire width of the container */
+
+}
+
+.page-name, .page-feature ,.page-sign{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.page-name {
+  display: flex; /* Display the contact list items in one line */
+  align-items: center; /* Vertically align the items in the contact list */
+  margin-right: 20px; /* Add margin to push the contact list items to the right */
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.page-feature {
+  display: flex; /* Display the contact list items in one line */
+  align-items: center; /* Vertically align the items in the contact list */
+  margin-left: 250px;
+  margin-top: 5px;
+}
+
+.page-sign{
+  display: flex; /* Display the contact list items in one line */
+  align-items: center; /* Vertically align the items in the contact list */
+  margin-right: 20px; /* Add margin to push the contact list items to the right */
+  margin-top: 5px;
+}
+
+.n_page{
+  text-decoration: none; /* Remove underlines from the links */
+  color: black; /* Set the link color as needed */
+  font-size: 60px;
+
+}
+
+.page-feature_link{
+  text-decoration: none; /* Remove underlines from the links */
+  color: #ded4c3; /* Set the link color as needed */
+  font-size: 30px;
+}
+
+.page-sign_link{
+  text-decoration: none; /* Remove underlines from the links */
+  color: #ded4c3; /* Set the link color as needed */
+  font-size: 30px;
+}
+/******************************************************************/
+.section-home{
+  background-color: #c3b091;
+
+}
+.container-search {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #c3b091;
+  margin-left: 900px;
+}
+
+input {
+  width: 80%;
+  padding: 9px;
+  margin: 10px 0;
+  border-radius: 40px;
+}
+/******************************************************************/
+.home-banner img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -70px;
+}
+/******************************************************************/
+
+.section-welcome {
+  background-color: #ded4c3; /* Background color for the section */
+  text-align: center; /* Center align the text in the section */
+
+}
+
+.welcome-page-subtitle {
+  font-size: 90px; /* Adjust font size as needed */
+  color: black; /* Text color for the subtitle */
+}
+
+.welcome-page-title {
+  font-size: 60px; /* Adjust font size as needed */
+  color: #008000; /* Text color for the title */
+  margin-top: 40px; /* Add space between the subtitle and title */
+}
+
+/******************************************************************/
+.section-latest-films {
+  background-color: #ded4c3; /* Background color for the section */
+  padding: 40px 0; /* Add padding to the section as needed */
+}
+
+.latest-films-subtitle {
+  font-size: 40px; /* Adjust font size as needed */
+  color: black; /* Text color for the subtitle */
+  margin-left: 50px;
+}
+
+.latest-films-link {
+  font-size: 25px; /* Adjust font size as needed */
+  color:#008000 ; /* Text color for the title */
+  margin-left: 2100px;/* Add space between the subtitle and title */
+  text-decoration: none;
+}
+
+.latest-films-list {
+  list-style: none; /* Remove default list styles */
+  display: flex; /* Use flexbox to align the list items */
+  justify-content: space-between; /* Space items evenly */
+  padding: 20px 0; /* Add padding to the list as needed */
+
+}
+
+.latest-films-card{
+  background-color: #ded4c3; /* Background color for the service cards */
+  margin-right: 5px;
+  margin-left: 5px;
+  border: 5px solid #8D745B; /* Add a border to the cards */
+  padding: 5px; /* Add padding to the cards as needed */
+
+}
+.films-title {
+  color: black;
+  text-decoration: none;
+}
+
+.films-title:hover {
+  text-decoration: underline;
+}
+
+.films-rate,
+.films-year,
+.films-description {
+  margin: 10px;
+  color: black;
+}
+
+/* Add some spacing to the description */
+.films-description {
+  margin-bottom: 15px;
+}
+/******************************************************************/
+/* Slideshow container */
+.top-films{
+  background-color:#ded4c3 ;
+}
+.Top-films-subtitle{
+  font-size: 40px; /* Adjust font size as needed */
+  color: black; /* Text color for the subtitle */
+  margin-left: 280px;
+
+}
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: white;
+  background-color: black;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 60%;
+  text-align: center;
+  margin-left: 160px;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/******************************************************************/
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us {
+  margin-right: 1300px;
+}
+
+.title-about-us{
+  font-size: 30px;
+  margin-right: 600px;
+}
+
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-link {
+  display: inline-block;
+  margin: 0 10px; /* Adjust margin as needed for spacing between links */
+  text-decoration: none; /* Remove underlines from links */
+  margin-left: 50px;
+  text-decoration: none;
+  display: block;
+  color:#ded4c3;
+  font-size: 25px;
+}
+/******************************************************************/
+.signature {
+  font-family: 'Great Vibes', cursive;
+  font-size: 34px;
+  font-weight: normal; /* Adjust as needed */
+  color: #333;
+  text-align: center;
+}
+.title-signature{
+  margin-left: 1700px;
+}
+.name-signature{
+  margin-left: 1900px;
+}

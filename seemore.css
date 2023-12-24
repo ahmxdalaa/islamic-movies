@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c3b091; /* Change the background color as needed */
+}
+
+.section-home {
+    background-color: #8D745B;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.welcome-page-subtitle {
+    font-size: 90px; /* Adjust font size as needed */
+    color: black; /* Text color for the subtitle */
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.latest-films-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust as needed */
+  
+  }
+
+.latest-films-card {
+    background-color: #8D745B; /* Background color for the service cards */
+    padding: 5px; /* Add padding to the cards as needed */
+    border: 1px solid #8D745B; /* Add a border to the cards */
+    border-radius: 8px; /* Add rounded corners to the cards */
+    margin-right: 90px;
+    margin-left: 20px;
+  
+
+}
+
+.latest-films-photo img{
+    width: 100%;
+    height: auto;
+ 
+
+}
+
+.card-film a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+
+}
+
+.films-rate,
+.films-year {
+    margin: 10px 0;
+    font-size: 18px;
+    color: black; /* Adjust text color as needed */
+
+}
+
+.films-description {
+    font-size: 16px;
+    color: black; /* Adjust text color as needed */
+
+}
+
+
+
